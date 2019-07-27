@@ -1,0 +1,23 @@
+name: MercuryWorks/Characters
+version: 1.0.0
+description: MercuryWorks Character plugin
+author: MercuryWorks
+license: LGPL-3.0-or-later
+server:
+  main:
+    - MercuryWorks.Characters.Server
+  include:
+    - MercuryWorks.Characters.Shared
+client:
+  main:
+    - MercuryWorks.Characters.Client
+  include:
+    - MercuryWorks.Characters.Shared
+  files:
+    - Overlays/CharacterOverlay.html
+    - Overlays/Character.js
+    - Overlays/CharacterSelect.js
+    - Overlays/gravity.woff2
+    - Overlays/main.js
+    - Overlays/pricedown.woff2
+    - Overlays/style.css
